@@ -1,3 +1,7 @@
+
+![bot](https://user-images.githubusercontent.com/86654131/192859084-147fd551-25ce-4a63-9981-cb0c29cad395.png)
+
+
 # Project Name
 
 REACT ROBOTS
@@ -10,7 +14,7 @@ This is a project to display CRUD in React JS
 
 - React
 - Semantic UI
--
+
 
 ## Getting Started
 
