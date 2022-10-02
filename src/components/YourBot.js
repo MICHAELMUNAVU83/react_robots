@@ -14,7 +14,7 @@ function YourBot({ bot, setAllBots, allBots }) {
     setAllBots(allBots.map((robot) => (robot.id === bot.id ? bot : robot)));
   };
   return (
-    <div className="ui column">
+    <div className="ui column" onClick={removeFromArmy}>
       <div className="ui card" key={bot.id}>
         <div className="image">
           <img alt="oh no!" src={bot.avatar_url} />
@@ -43,11 +43,7 @@ function YourBot({ bot, setAllBots, allBots }) {
             {bot.armor}
           </span>
           <span>
-            <div className="ui center aligned segment basic">
-              <button className="ui mini red button" onClick={removeFromArmy}>
-                Remove from army
-              </button>
-            </div>
+
           </span>
         </div>
       </div>
